@@ -1,0 +1,22 @@
+{
+    "name": "razorpay/module-razorpay",
+    "description": "Razorpay GraphQl",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Shreyas",
+            "email": "shr3yas3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Razorpay\\RazorpayGraphQl\\": ""
+        }
+    }
+}
